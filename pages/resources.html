@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources | Team Portal</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body data-page="resources">
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-ring"></div>
+    </div>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand-block" href="../index.html">
+          <span class="brand-mark">C</span>
+          <span>
+            <strong>ClipStitch</strong>
+            <small>Team Portal</small>
+          </span>
+        </a>
+
+        <nav class="sidebar-nav" aria-label="Primary">
+          <a class="nav-link" href="../index.html"><span>01</span><strong>Home</strong></a>
+          <a class="nav-link" href="about.html"><span>02</span><strong>About</strong></a>
+          <a class="nav-link" href="company-structure.html"><span>03</span><strong>Structure</strong></a>
+          <a class="nav-link" href="leadership.html"><span>04</span><strong>Leadership</strong></a>
+          <a class="nav-link" href="departments.html"><span>05</span><strong>Departments</strong></a>
+          <a class="nav-link" href="workflow.html"><span>06</span><strong>Workflow</strong></a>
+          <a class="nav-link" href="team-rules.html"><span>07</span><strong>Team Rules</strong></a>
+          <a class="nav-link active" href="resources.html"><span>08</span><strong>Resources</strong></a>
+          <a class="nav-link" href="contact.html"><span>09</span><strong>Contact</strong></a>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p>Internal onboarding</p>
+          <a href="resources.html">Open resources</a>
+        </div>
+      </aside>
+
+      <div class="main-panel">
+        <header class="topbar">
+          <button class="icon-button mobile-only" id="sidebarToggle" aria-label="Toggle navigation">☰</button>
+          <div class="search-box">
+            <span>⌕</span>
+            <input id="globalSearch" type="text" placeholder="Search portal" aria-label="Search portal" />
+          </div>
+          <div class="topbar-actions">
+            <button class="icon-button" id="themeToggle" aria-label="Toggle dark mode">☾</button>
+            <a class="pill-link" href="contact.html">Contact leadership</a>
+          </div>
+        </header>
+
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a>
+          <span>/</span>
+          <span>Resources</span>
+        </nav>
+
+        <main class="page-content">
+          <section class="page-title reveal">
+            <p class="eyebrow">Resources</p>
+            <h1>Useful assets and templates to support day-to-day work.</h1>
+            <p class="page-intro">These downloads are intended to make onboarding and collaboration easier from the start.</p>
+          </section>
+
+          <section class="download-list reveal">
+            <article class="resource-card search-target">
+              <h3>Logo</h3>
+              <p>Master logo files for internal presentation and brand reference.</p>
+              <a href="../downloads/logo.zip" download>Download logo package</a>
+            </article>
+            <article class="resource-card search-target">
+              <h3>Fonts</h3>
+              <p>Typography references and approved font assets for internal use.</p>
+              <a href="../downloads/fonts.zip" download>Download fonts package</a>
+            </article>
+            <article class="resource-card search-target">
+              <h3>Brand Assets</h3>
+              <p>Core brand assets and placeholders to support client work.</p>
+              <a href="../downloads/assets.zip" download>Download assets package</a>
+            </article>
+            <article class="resource-card search-target">
+              <h3>Proposal Template</h3>
+              <p>A polished internal proposal document structure for new opportunities.</p>
+              <a href="../downloads/proposal-template.docx" download>Download template</a>
+            </article>
+            <article class="resource-card search-target">
+              <h3>Folder Structure</h3>
+              <p>Recommended file system structure for keeping work organized.</p>
+              <a href="../downloads/folder-structure.pdf" download>Download guide</a>
+            </article>
+            <article class="resource-card search-target">
+              <h3>Presentation Template</h3>
+              <p>A refined slide template for internal and client-facing presentations.</p>
+              <a href="../downloads/presentation-template.pptx" download>Download template</a>
+            </article>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="empty-state">No matching content found.</div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

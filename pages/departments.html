@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Departments | Team Portal</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body data-page="departments">
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader-ring"></div>
+    </div>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand-block" href="../index.html" aria-label="ClipStitch home">
+          <img src="../assets/logos/clipstitch-logo.jpg" alt="ClipStitch logo" />
+          <span class="brand-text">
+            <strong>CLIPSTITCH</strong>
+            <small>Team Portal</small>
+            <span class="brand-tagline">Memories, Reimagined.</span>
+          </span>
+        </a>
+
+        <nav class="sidebar-nav" aria-label="Primary">
+          <a class="nav-link" href="../index.html"><span>01</span><strong>Home</strong></a>
+          <a class="nav-link" href="about.html"><span>02</span><strong>About</strong></a>
+          <a class="nav-link" href="company-structure.html"><span>03</span><strong>Structure</strong></a>
+          <a class="nav-link" href="leadership.html"><span>04</span><strong>Leadership</strong></a>
+          <a class="nav-link active" href="departments.html"><span>05</span><strong>Departments</strong></a>
+          <a class="nav-link" href="workflow.html"><span>06</span><strong>Workflow</strong></a>
+          <a class="nav-link" href="team-rules.html"><span>07</span><strong>Team Rules</strong></a>
+          <a class="nav-link" href="contact.html"><span>08</span><strong>Contact Leadership</strong></a>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p>Internal onboarding</p>
+          <a href="contact.html">Contact leadership</a>
+        </div>
+      </aside>
+
+      <div class="main-panel">
+        <header class="topbar">
+          <button class="icon-button mobile-only" id="sidebarToggle" aria-label="Toggle navigation">☰</button>
+          <div class="search-box">
+            <span>⌕</span>
+            <input id="globalSearch" type="text" placeholder="Search portal" aria-label="Search portal" />
+          </div>
+          <div class="topbar-actions">
+            <button class="icon-button" id="themeToggle" aria-label="Toggle dark mode">☾</button>
+            <a class="pill-link" href="contact.html">Contact leadership</a>
+          </div>
+        </header>
+
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a>
+          <span>/</span>
+          <span>Departments</span>
+        </nav>
+
+        <main class="page-content">
+          <section class="page-title reveal">
+            <p class="eyebrow">Departments</p>
+            <h1>Each department has a clear purpose, deliverable, and point of coordination.</h1>
+            <p class="page-intro">The studio works best when each team understands the role it plays in the whole.</p>
+          </section>
+
+          <section class="departments-grid reveal">
+            <article class="department-card search-target">
+              <h3>Brand Strategy</h3>
+              <p class="department-meta">Purpose, positioning, and narrative clarity.</p>
+              <ul class="list-stack">
+                <li>Defines strategic direction</li>
+                <li>Shapes positioning and messaging</li>
+                <li>Provides the foundation for execution</li>
+              </ul>
+            </article>
+
+            <article class="department-card search-target">
+              <h3>Production</h3>
+              <p class="department-meta">Delivery, coordination, and operational clarity.</p>
+              <ul class="list-stack">
+                <li>Coordinates project execution</li>
+                <li>Keeps production moving efficiently</li>
+                <li>Ensures timelines and outputs are managed</li>
+              </ul>
+            </article>
+
+            <article class="department-card search-target">
+              <h3>Business Development</h3>
+              <p class="department-meta">Growth, opportunity, and partnerships.</p>
+              <ul class="list-stack">
+                <li>Builds new opportunities</li>
+                <li>Prepares proposals and commercial conversations</li>
+                <li>Supports studio growth</li>
+              </ul>
+            </article>
+
+            <article class="department-card search-target">
+              <h3>Editing</h3>
+              <p class="department-meta">Refinement, coherence, and final polish.</p>
+              <ul class="list-stack">
+                <li>Polishes final outputs</li>
+                <li>Ensures voice, rhythm, and flow</li>
+                <li>Improves quality before delivery</li>
+              </ul>
+            </article>
+
+            <article class="department-card search-target">
+              <h3>Design</h3>
+              <p class="department-meta">Visual systems, presentation, and execution.</p>
+              <ul class="list-stack">
+                <li>Turns strategy into tangible design</li>
+                <li>Creates assets and presentation systems</li>
+                <li>Supports visual consistency across work</li>
+              </ul>
+            </article>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="empty-state">No matching content found.</div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
